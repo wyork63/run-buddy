@@ -130,15 +130,15 @@ header h1 {
 
 /* What section start */
 .steps{
-    text-align: center;
     background-color: #fce138;}
 
 .section-title {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%; 
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;}
 
 .primary-border {
@@ -149,11 +149,8 @@ header h1 {
     border-color: #39a6b2;
 }
 
-.intro{ 
-    text-align: center;
-}
-
 .intro p {
+    text-align: center;
     margin: 0 auto;
     line-height: 1.7;
     color: #39a6b2;
@@ -189,7 +186,7 @@ header h1 {
 /* Trainers section start */
 
 .trainers {
-    text-align: center;
+  
 }
 
 .trainer {
@@ -239,7 +236,6 @@ header h1 {
   /* contact info start */
   .contact {
     background-color: #024e76;
-    text-align: center;
   }
 
   .contact h2 {
@@ -286,4 +282,7 @@ header h1 {
     color: #fce138;
   }
 
+.flex-row {
+  display: flex;
+}
 
